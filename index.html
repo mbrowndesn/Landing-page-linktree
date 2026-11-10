@@ -3,30 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name — Links</title>
+  <title>Swoop — Links</title>
+
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-  <style type="text/tailwindcss">
-  @layer components {
-    .link {
-      @apply block rounded-lg border border-neutral-200 bg-white px-4 py-3 font-medium transition-colors hover:bg-neutral-100 focus-visible:outline-2 focus-visible:outline-offset-2 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:bg-neutral-800;
-    }
+  <style>
+
+
+a:hover {
+  background: lightcoral;
+}
+
+
+@layer components {
+  .link {
+    @apply block rounded-lg border border-neutral-200 bg-white px-4 py-3 font-medium transition-colors hover:bg-neutral-100 focus-visible:outline-2 focus-visible:outline-offset-2 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:bg-neutral-800;
   }
-</style>
+}
+
+
+
+  </style>
 
 </head>
-<body class="min-h-dvh bg-neutral-50 text-neutral-900 antialiased dark:bg-neutral-950 dark:text-neutral-100">
-  <main class="mx-auto max-w-md px-6 py-16 text-center">
+<body class="min-h-dvh bg-neutral-300 text-neutral-900 antialiased dark:bg-neutral-950 dark:text-neutral-100">
+  <main class="max-w-md mx-auto px-6 py-16 text-center">
 
-    <img src="https://assets.codepen.io/16425/image-placeholder.png" alt="" class="mx-auto size-24 rounded-full">
-    <h1 class="mt-4 text-xl font-semibold">Your Name</h1>
+    <img src="https://assets.codepen.io/16425/image-placeholder.png" alt=""
+    
+    class="mx-auto size-full rounded-[24px]"
+    >
+    <h1 class="mt-4 text-xl font-semibold">Swoop</h1>
     <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">Short bio goes here.</p>
 
     <ul class="mt-8 space-y-3">
-      <li><a href="#" class="link">Website</a></li>
-      <li><a href="#" class="link">Social</a></li>
-      <li><a href="#" class="link">GitHub</a></li>
-      <li><a href="mailto:you@example.com" class="link">Contact</a></li>
+      <li><a href="#" class="block rounded-lg border border-neutral-200 bg-white px-4 py-3 font-medium hover:bg-neutral-100 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:bg-neutral-800">Website</a></li>
+      <li><a href="#" class="block rounded-lg border border-neutral-200 bg-white px-4 py-3 font-medium hover:bg-neutral-100 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:bg-neutral-800">Social</a></li>
+      <li><a href="#" class="block rounded-lg border border-neutral-200 bg-white px-4 py-3 font-medium hover:bg-neutral-100 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:bg-neutral-800">GitHub</a></li>
+      <li><a href="mailto:swoop@ewu.edu" class="block rounded-lg border border-neutral-200 bg-white px-4 py-3 font-medium hover:bg-neutral-100 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 dark:border-neutral-800 dark:bg-neutral-900 dark:hover:bg-neutral-800">Contact</a></li>
+    
+    
+  
+    
     </ul>
 
   </main>
